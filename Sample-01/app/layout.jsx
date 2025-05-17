@@ -9,7 +9,7 @@ import { Auth0Provider } from '@auth0/nextjs-auth0';
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link
           rel="stylesheet"
