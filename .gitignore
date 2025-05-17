@@ -1,2 +1,20 @@
-# misc
+# Next.js build output
+.next/
+
+# Node.js modules
+node_modules/
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel project settings (optional but recommended)
+vercel/
+
+# VSCode editor settings
+.vscode/
+
+# macOS
 .DS_Store
